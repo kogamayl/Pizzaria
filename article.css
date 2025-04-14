@@ -1,0 +1,8 @@
+section {
+    background-image: url(./img-zarriapi/fundopizza.jpg);
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
