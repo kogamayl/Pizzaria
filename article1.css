@@ -12,6 +12,7 @@
 .sobreNos {
     background-color: rgb(34, 34, 34);
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 50px;
     flex-wrap: wrap;
@@ -51,7 +52,7 @@
         width: 200px;
         height: 200px;
     }
-    
+
     .sobreNosTextos {
         justify-content: center;
     }
@@ -69,5 +70,17 @@
 @media (max-width: 220px) {
     .sobreNos img {
         display: none;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .sobreNosTextos {
+        padding-right: 0;
+    }
+
+    .sobreNosTextos p {
+        padding-right: 0;
+        padding-bottom: 30px;
     }
 }
