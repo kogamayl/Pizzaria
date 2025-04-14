@@ -1,5 +1,7 @@
 @import url("/header.css");
-@import url("/article.css");
+@import url("/article1.css");
+@import url("/article2.css");
+
 
 * {
     padding: 0;

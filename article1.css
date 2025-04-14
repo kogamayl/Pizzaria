@@ -1,0 +1,73 @@
+/* Imagem da pizza de fundo */
+.fundoPizza {
+    background-image: url(./img-zarriapi/fundopizza.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* Sobre nós e imagem */
+.sobreNos {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.sobreNosTextos {
+    max-width: 500px;
+    text-align: center;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+.sobreNosTextos h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.sobreNosTextos p {
+    font-size: 20px;
+}
+
+.sobreNos img {
+    width: 300px;
+    height: 300px;
+    border: #fff solid 1px;
+}
+
+@media (max-width: 700px) {
+    .sobreNos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sobreNos img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .sobreNosTextos {
+        justify-content: center;
+    }
+
+    .sobreNosTextos h1 {
+        font-size: 30px;
+    }
+
+    .sobreNosTextos p {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 220px) {
+    .sobreNos img {
+        display: none;
+    }
+}
