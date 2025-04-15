@@ -1,0 +1,54 @@
+.cardapio {
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 100px;
+}
+
+.cardapio h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.caixinhas {
+    display: block;
+
+}
+
+.caixinhas img {
+    max-width: 300px;
+    height: 100px;
+    background-color: rgb(54, 53, 53);
+}
+
+.fatias {
+    background-color: #ffffff;
+    max-width: 255px;
+}
+
+.fatias p {
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.fatias li {
+    color: #000000;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preco {
+    list-style: none;
+}
+
+.botao {
+    margin: 10px 0;
+    color: #000000;
+    background-color: rgb(74, 211, 74);
+    padding: 5px;
+    
+}
