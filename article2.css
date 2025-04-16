@@ -1,3 +1,7 @@
+.article2 {
+    background-color: rgb(20, 20, 20);
+}
+
 .cardapio {
     background-color: rgb(20, 20, 20);
     padding-bottom: 100px;
@@ -6,6 +10,8 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: 930px;
+    margin: auto;
 }
 
 .h1 {
@@ -19,10 +25,20 @@
     max-width:256px;
 }
 
+.pizza:hover {
+    border-color: orange;
+    border-radius: 10px;
+}
+
 .pizza img {
     max-width: 200px;
     height: 150px;
     background-color: rgb(54, 53, 53);
+}
+
+.pizza img:hover {
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
 }
 
 .pizza p {
@@ -44,10 +60,22 @@
     padding: 10px;
 }
 
+.pizzas:hover {
+    max-width:300px;
+}
+
 .button {
     background-color: rgb(7, 171, 7);
     width: 120px;
     height: 30px;
     margin: 10px 0;
     border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    border-radius: 10px;
+    width: 140px;
+    font-size: 100%;
+    color: #fff;
 }

@@ -1,0 +1,41 @@
+footer {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer h1 {
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.containerFooter {
+    max-width: 960px;
+    margin: auto;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.lista:hover {
+    font-size: 22px;
+}
+
+.lista img {
+    width: 30px;
+    flex-wrap: wrap;
+}

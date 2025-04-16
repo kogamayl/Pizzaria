@@ -40,6 +40,11 @@
     border: #fff solid 1px;
 }
 
+.sobreNos img:hover {
+    border-color: orange;
+    border-width: 2px;
+}
+
 @media (max-width: 700px) {
     .sobreNos {
         flex-direction: column;

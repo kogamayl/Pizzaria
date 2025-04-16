@@ -41,6 +41,10 @@ nav a {
     font-size: 13px;
 }
 
+nav a:hover{
+    text-decoration: underline orange;
+    font-size: 15px;
+}
 
 @media (max-width:400px) {
     a {
