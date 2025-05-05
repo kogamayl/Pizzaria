@@ -29,10 +29,11 @@ footer ul {
     align-items: center;
     gap: 5px;
     flex-wrap: wrap;
+    transition: 0.5s ease;
 }
 
 .lista:hover {
-    font-size: 22px;
+    transform: scale(1.1);
 }
 
 .lista img {
